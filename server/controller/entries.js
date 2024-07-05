@@ -2,7 +2,7 @@ const { Items, Symptoms, User } = require('../models/entries');
 
 exports.getEntries = async (req, res) => {
   try {
-    // combination of items and symptoms
+
     const itemsWithSymptoms = await Items.findAll({
       include: [
         {
@@ -16,7 +16,7 @@ exports.getEntries = async (req, res) => {
       ],
     });
 
-    // when just symptoms
+
     const symptomsWithoutItems = await Symptoms.findAll({
       where: {
         itemId: null,
@@ -77,7 +77,7 @@ exports.postEntry = async (req, res) => {
   }
 };
 
-// to modify an entry
+
 exports.modifyEntry = async (req, res) => {
   try {
     const { id } = req.params;

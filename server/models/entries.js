@@ -90,7 +90,6 @@ const Symptoms = sequelize.define('symptoms', {
   },
 });
 
-// table relationships
 User.hasMany(Items, { foreignKey: 'userId' });
 Items.belongsTo(User, { foreignKey: 'userId' });
 
