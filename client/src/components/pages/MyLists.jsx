@@ -5,8 +5,6 @@ import EntriesContext from '../../entriesContext';
 const MyLists = () => {
   const { entriesList, setEntriesList } = useContext(EntriesContext);
 
-  console.log('entriesList in MyLists:', entriesList);
-
   return (
     <div>
       <HealthImpactTable

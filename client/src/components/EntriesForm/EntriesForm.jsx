@@ -11,7 +11,6 @@ import {
   MenuItem,
   FormGroup,
   FormControlLabel,
-  Switch,
   Checkbox,
 } from '@mui/material';
 
@@ -23,7 +22,6 @@ function EntriesForm({ setEntriesList, userId }) {
   const [otherSymptoms, setOtherSymptoms] = useState('');
   const [selectedStoolType, setSelectedStoolType] = useState('');
   const [bloodInStool, setBloodInStool] = useState(false);
-  const [isInputVisible, setIsInputVisible] = useState(true);
 
   const handleChange = (event) => {
     setItem(event.target.value);
@@ -46,11 +44,6 @@ function EntriesForm({ setEntriesList, userId }) {
   const handleBloodPresenceChange = (event) => {
     setBloodInStool(event.target.checked);
     console.log('blood:', event.target.checked);
-  };
-
-  // For toggle feature of the form
-  const handleFormChange = (event) => {
-    setIsInputVisible(!isInputVisible);
   };
 
   const handleSubmit = (event) => {

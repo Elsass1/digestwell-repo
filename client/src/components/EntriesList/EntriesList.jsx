@@ -1,6 +1,5 @@
-import React from 'react';
 import Entry from '../Entry/Entry';
-import { Container, Box, Paper } from '@mui/material';
+import { Container, Box } from '@mui/material';
 const EntriesList = ({ entriesList, setEntriesList }) => {
   return (
     <Container

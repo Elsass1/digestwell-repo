@@ -17,7 +17,6 @@ import { useLocation } from 'react-router-dom';
 
 const pages = [
   { name: 'My lists', path: '/my-lists' },
-  { name: 'Info', path: '/info' },
 ];
 const settings = ['Profile', 'Account', 'Dashboard', 'Logout'];
 

@@ -32,8 +32,6 @@ const Entry = ({
   const [updatedHealthImpact, setUpdatedHealthImpact] = useState(
     health_impact || 'Neutral'
   );
-  const [updatedSymptoms, setUpdatedSymptoms] = useState(symptoms);
-  const [updatedStoolType, setUpdatedStoolType] = useState(stool_type);
 
   const handleDelete = () => {
     deleteEntry(id).then(() => {
@@ -54,8 +52,6 @@ const Entry = ({
       name: updatedName,
       select: updatedSelect,
       health_impact: updatedHealthImpact,
-      // other_symptoms: updatedSymptoms,
-      // stool_type: updatedStoolType,
     };
 
     await editEntry(id, editedEntry);
@@ -104,14 +100,6 @@ const Entry = ({
 
   const handleHealthImpact = (event) => {
     setUpdatedHealthImpact(event.target.value);
-  };
-
-  const handleSymptoms = (event) => {
-    setUpdatedSymptoms(event.target.value);
-  };
-
-  const handleStoolType = (event) => {
-    setUpdatedStoolType(event.target.value);
   };
 
   return (
