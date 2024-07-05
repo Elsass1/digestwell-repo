@@ -39,5 +39,5 @@ DigestWell was built to help patients suffering from Irritable Bowel Disease (Ul
 * [PostgreSQL](https://www.postgresql.org/)
 
 ## Developer
-* Brice Fromm -[GitHub] (https://github.com/Elsass1)
-* [LinkedIn] (https://www.linkedin.com/in/frommbrice)
+* Brice Fromm [GitHub](https://github.com/Elsass1)
+* [LinkedIn](https://www.linkedin.com/in/frommbrice)
