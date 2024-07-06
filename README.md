@@ -1,7 +1,7 @@
 ## DigestWell
 
 <p align="center">
-  <img src="images/digestwell.png" />
+  <img src="images/digestwell.png" size="200" />
 </p>
 
 DigestWell was built to help patients suffering from Irritable Bowel Disease (Ulcerative Colitis and Crohn's disease) effectively track their intake of food, beverages, medications, and supplements.
@@ -9,9 +9,9 @@ DigestWell was built to help patients suffering from Irritable Bowel Disease (Ul
 ## Screenshots
 
 <p align="center">
-  <img src="images/digestwell-main-page.png" />
-  <img src="images/digestwell-selection.png" />
-  <img src="images/digestwell-impact-list.png" />
+  <img src="images/digestwell-main-page.png" size="600"/>
+  <img src="images/digestwell-selection.png" size="600"/>
+  <img src="images/digestwell-impact-list.png" size="600"/>
 </p>
 
 ## Getting started
